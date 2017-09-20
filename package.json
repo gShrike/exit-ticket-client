@@ -1,0 +1,20 @@
+{
+  "name": "exit-ticket-client",
+  "version": "0.1.0",
+  "private": true,
+  "watch": {
+    "test": "{site,tests}/*.*"
+  },
+  "scripts": {
+    "test": "node ./node_modules/nightwatch/bin/nightwatch",
+    "install-selenium": "./node_modules/selenium-standalone/bin/selenium-standalone install",
+    "selenium": "./node_modules/selenium-standalone/bin/selenium-standalone start",
+    "watch": "npm-watch"
+  },
+  "dependencies": {
+    "nightwatch": "^0.9.12",
+    "npm-watch": "^0.2.0",
+    "phantomjs": "^2.1.7+deprecate",
+    "selenium-standalone": "^6.0.1"
+  }
+}
