@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="show-questions"
-    errors="0" failures="1" hostname="" id="" package="show-questions" skipped="0"
-    tests="1" time="9.581" timestamp="Thu, 21 Sep 2017 17:10:46 GMT">
+    errors="0" failures="0" hostname="" id="" package="show-questions" skipped="0"
+    tests="1" time="1.918" timestamp="Thu, 21 Sep 2017 17:22:11 GMT">
   
-    <testcase name="It shows all questions" classname="show-questions" time="9.581" assertions="4">
+    <testcase name="It shows all questions" classname="show-questions" time="1.918" assertions="5">
 
     
 
     
 
-      <failure message="Timed out while waiting for element &lt;li&gt; to be present for 6000 milliseconds.">    at Object.It shows all questions (/Users/kschlesinger/exit-ticket-client/tests/show-questions.js:8:10)
-    at _combinedTickCallback (internal/process/next_tick.js:95:7)</failure>
+    
+
+    
 
     
     </testcase>
