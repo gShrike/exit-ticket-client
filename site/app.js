@@ -11,9 +11,9 @@ function getData() {
       return response.json()
     })
     .then(function(questions) {
-      for (var i = 0; i < questions.length; i++) {
-        listItem.innerHTML = questions[i].question_text
-        orderedList[0].appendChild(listItem)
-      }
+      // for (var i = 0; i < questions.length; i++) {
+      //   listItem.innerHTML = questions[i].question_text
+      //   orderedList[0].appendChild(listItem)
+      // }
     })
 };

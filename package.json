@@ -9,12 +9,16 @@
     "test": "node ./node_modules/nightwatch/bin/nightwatch",
     "install-selenium": "./node_modules/selenium-standalone/bin/selenium-standalone install",
     "selenium": "./node_modules/selenium-standalone/bin/selenium-standalone start",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "sass-watch": "./node_modules/node-sass/bin/node-sass -w site/style.scss site/style.css"
   },
   "dependencies": {
     "nightwatch": "^0.9.12",
     "npm-watch": "^0.2.0",
     "phantomjs": "^2.1.7+deprecate",
     "selenium-standalone": "^6.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
   }
 }
