@@ -1,5 +1,45 @@
-body {
-  li {
-    background-color: pink;
+@import "reset";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
+@mixin header-font {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fff;
+}
+
+@mixin body-font {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  background-color: rgba(0,59,76,.7);
+  padding: 1rem;
+  height: 45px;
+  img {
+    width: 20px;
+
   }
+  h1 {
+    @include header-font;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 45px);
+  padding: 1rem 3rem;
+  @include body-font;
+}
+
+ol {
+  list-style-type: decimal;
+  max-width: calc(100vh - 2rem);
 }
